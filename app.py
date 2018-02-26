@@ -13,10 +13,8 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY') if os.environ.ge
 
 @app.route('/')
 def hello_world():    
-<<<<<<< HEAD
-======
     return "Helllllll ^&^&6767676767 changes from new branch"
->>>>>>> origin/master
+
 
 @app.route('/xxx')
 def get_s3_buckets():
