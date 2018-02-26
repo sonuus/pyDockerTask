@@ -13,7 +13,7 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY') if os.environ.ge
 
 @app.route('/')
 def hello_world():    
-    return "Helllllll $$$$$$$$$$$$$$$$$$$$$$"
+    return "Helllllll ^&^&6767676767"
 
 @app.route('/xxx')
 def get_s3_buckets():
@@ -22,7 +22,7 @@ def get_s3_buckets():
     lst=[]
     for bucket in s3.buckets.all():
         print(bucket.name)
-        lst.append(bucket.name + "  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+        lst.append(bucket.name + "  777777777")
     return jsonify({'buckets':lst})
     
 
