@@ -13,7 +13,7 @@ AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY') if os.environ.ge
 
 @app.route('/')
 def hello_world():    
-    return "Helllllll ^&^&6767676767 change code in master branch"
+    return "Hell OOOOOOOOOOOOO"
 
 
 @app.route('/xxx')
