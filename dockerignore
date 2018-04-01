@@ -30,3 +30,4 @@ LICENSE
 my_file.json
 .vs
 cloudformation
+chron-trigger-lambda
